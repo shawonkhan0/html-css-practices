@@ -1,0 +1,138 @@
+body {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.excercise-buttons {
+    padding: 8px;
+    min-height: 100px;
+}
+.subscribe-button {
+    background-color: #cc0000;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: all .20s;
+    margin-right: 10px;
+}
+.subscribe-button:hover {
+    opacity: .75;
+}
+.subscribe-button:active {
+    opacity: .5;
+}
+.join-button {
+    background-color: #fff;
+    color: #065fd4;
+    border: 1px solid #065fd4;
+    padding: 9px 15px;
+    font-size: 14px;
+    cursor: pointer;  
+    transition: all .20s;
+    margin-right: 10px;
+}
+.join-button:hover {
+    background-color: #065fd4;
+    color: #fff;
+}
+.join-button:active {
+    opacity: .5;
+}
+.tweet-button {
+    background-color: #1d9bf0;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 7px 16px;
+    border-radius: 40px;
+    font-weight: bold;
+    transition: all .15s;
+    margin-right: 10px;
+}
+.tweet-button:hover {
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, .15);
+}
+.tweet-button:active {
+    opacity: .5;
+}
+.uber-button {
+    min-height: 50px;
+    display: inline-block;
+}
+.uber-request-now {
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: background-color 0.18s;
+}
+.uber-request-now:hover {
+    background-color: #2C2C2C;
+}
+.amazon-button {
+    min-height: 50px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.amazon-add-to-cart {
+    background-color: #F9D84B;
+    color: #000;
+    padding: 13px 40px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-left: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    transition: background-color 0.18s;
+}
+.amazon-add-to-cart:hover {
+    background-color: #F5C200;
+}
+.bootstrap-buttons {
+    min-height: 80px;
+    min-width: 180px;
+}
+.bootstrap-get-started {
+    display: inline-block;
+    margin-right: 30px;
+    background-color: #603F96;
+    color: #f3f2f2;
+    border: none;
+    padding: 15px 25px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.bootstrap-get-started:hover {
+    background-color: #4E3375;
+    color: #f3f2f2;
+}
+.bootstrap-get-started:active {
+    transform: translateY(1px);
+}
+.bootstrap-download {
+    display: inline-block;
+    background-color: #E2E2E2;
+    color: #595D5F;
+    border: 1px solid #4A4A4C;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 13px 25px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+.bootstrap-download:hover {
+    background-color: #545C62;
+    color: #e1e5e9;
+}
